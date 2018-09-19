@@ -1,17 +1,19 @@
 # VU QUANG NGUYEN 2018
 ## TRUNG TAM DU LIEU  - HINH ANH
 
-|_TRUNG TAM_| _Direction_ |
-|:---: |:---:|
-|THUC TAP DA LAT |[Xem](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#copyright-by-ngo-bao-tram---1513200)|
-|XUAN TINH NGUYEN 2018|[Link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#xuan-tinh-nguyen-2018)|
-|HINH ANH NAM 2017|[LINK](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#hinh-anh-cua-nam-2017)|
-|TU THIEN TRA VINH|[link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#tra-vinh---tu-thien)|
-|THUC HANH | [Link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#thuc-hanh-chuyen-de)|
-|Vu Quang Nguyen | [Link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#vu-quang-nguyen----1523030)|
-|Track - Secret|[Xem ngay](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#dim_hang)|
-|Track - blocked|[Don't see](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#05-sv-khoa-2015)|
-|Track_KhanhHoa|[KhanhHoa_2018](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#he_khanh_hoa)|
+
+### THUC TAP DA LAT       [Xem](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#copyright-by-ngo-bao-tram---1513200)
+### XUAN TINH NGUYEN 2018 [Link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#xuan-tinh-nguyen-2018)
+### HINH ANH NAM 2017     [LINK](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#hinh-anh-cua-nam-2017)
+### TU THIEN TRA VINH     [link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#tra-vinh---tu-thien)
+### THUC HANH             [Link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#thuc-hanh-chuyen-de)
+### Vu Quang Nguyen       [Link](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#vu-quang-nguyen----1523030)
+### Track - Secret        [Xem ngay](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#dim_hang)
+### Track - blocked       [Don't see](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#05-sv-khoa-2015)
+### Track_KhanhHoa        [KhanhHoa_2018](https://github.com/vuquangnguyen2016/Webpage/wiki/Studio#he_khanh_hoa)
+
+
+
 ## HINH ANH THUC TAP DA LAT - LE NGOC THAI
 
 <!--Track 2-->
