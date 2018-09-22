@@ -677,6 +677,9 @@
 ![20180128_094636](https://user-images.githubusercontent.com/36990033/40313721-91fc49d2-5d40-11e8-869a-ccfe3f74bf30.jpg)
 ![20180127_105710](https://user-images.githubusercontent.com/36990033/40313722-923d382a-5d40-11e8-8dca-abb23d56e842.jpg)
 
+<!--Hinh troll-->
+![15697801_1840029866213279_3854316256897806427_n](https://user-images.githubusercontent.com/41269309/45913781-ee120c00-be63-11e8-9a20-48187d8bd377.jpg)
+
 
 
 
