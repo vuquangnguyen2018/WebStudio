@@ -1,14 +1,10 @@
-# VU QUANG NGUYEN 2018
+# VU QUANG NGUYEN 2018 - Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/)
 ## TRUNG TAM DU LIEU  - HINH ANH
 
 
 #### HINH ANH THUC TAP DA LAT - KTHN && VLHN [View](https://github.com/vuquangnguyen2018/WebStudio/issues/2)
 <!--Track 2-->
 #### HINH ANH LOP VLYK: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/3)
-
-
-
-
 #### NHA TUI : [View](https://github.com/vuquangnguyen2018/WebStudio/issues/7)
 
 <!--The end-->
@@ -17,6 +13,7 @@
 #### Hinh anh nam 3 -2018 : [View](https://github.com/vuquangnguyen2018/WebStudio/issues/4)
 #### Hinh anh tu thien Tra Vinh: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/1)
 
+<br/>
 #### HINH ANH SINH VIEN KHOA 2015: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/8)
 
 
