@@ -1,5 +1,6 @@
-# VU QUANG NGUYEN 2018 - Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/)
-## TRUNG TAM DU LIEU  - HINH ANH
+# VU QUANG NGUYEN 2018 
+### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/)
+### TRUNG TAM DU LIEU  - HINH ANH
 
 
 #### HINH ANH THUC TAP DA LAT - KTHN && VLHN [View](https://github.com/vuquangnguyen2018/WebStudio/issues/2)
@@ -13,7 +14,7 @@
 #### Hinh anh nam 3 -2018 : [View](https://github.com/vuquangnguyen2018/WebStudio/issues/4)
 #### Hinh anh tu thien Tra Vinh: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/1)
 #### HINH ANH SINH VIEN KHOA 2015: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/8)
-
+#### Sinh vien khoa 2014 -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/5)
 
 ## 06. PHONG THU
 <!--Phong Thu-->
@@ -89,7 +90,6 @@
 ![10940450_711767545610953_3289833968102150560_n](https://user-images.githubusercontent.com/41269309/44954106-dd572180-aec7-11e8-9264-b556402eeb96.jpg)
 ![893555_492253900838118_707573196_o](https://user-images.githubusercontent.com/41269309/44954107-dd572180-aec7-11e8-9746-1bf3917dcc65.jpg)
 
-# Sinh vien khoa 2014 -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/5)
 
 ## Security Code: Copyright by VU QUANG NGUYEN: 
 #### VU QUANG NGUYEN  - 1523030: [Getlink](https://github.com/vuquangnguyen2018/WebStudio/issues/9)
