@@ -7,19 +7,6 @@
 #### HINH ANH LOP VLYK: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/3)
 
 
-#### VU QUANG NGUYEN  - 1523030
-![21753039-603367200051267-6748639800835693957-o_orig](https://user-images.githubusercontent.com/36990033/40307517-09827df0-5d2d-11e8-818c-42934c097ccc.jpg)
-![brand_name_vqn_16 04 2018](https://user-images.githubusercontent.com/36990033/40307518-09b5fd06-5d2d-11e8-86fe-4a38fedbcd62.png)
-![logo_bm_vi](https://user-images.githubusercontent.com/36990033/40307519-09eae408-5d2d-11e8-9563-30e583eff9d8.png)
-![logo-khtn](https://user-images.githubusercontent.com/36990033/40307520-0a1c4dea-5d2d-11e8-988c-4a411f58b579.png)
-![untitled-1](https://user-images.githubusercontent.com/36990033/40307521-0a4ce5ea-5d2d-11e8-945e-b0c64794d321.png)
-![signature](https://user-images.githubusercontent.com/36990033/40543739-ecbbeb68-604f-11e8-9375-5a3eda4c41bd.jpg)
-<!--Track3-->
-
-
-
-<!--UPDATE HINH ANH - VUQUANGNGUYEN2018-->
-![VU QUANG NGUYEN - UPDATE 2018.08.19](https://user-images.githubusercontent.com/36990033/44306816-75c9ae00-a3c0-11e8-9c96-6f84185c5a61.jpg)
 
 
 #### NHA TUI : [View](https://github.com/vuquangnguyen2018/WebStudio/issues/7)
@@ -108,3 +95,7 @@
 ![893555_492253900838118_707573196_o](https://user-images.githubusercontent.com/41269309/44954107-dd572180-aec7-11e8-9746-1bf3917dcc65.jpg)
 
 # Sinh vien khoa 2014 -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/5)
+
+## Security Code: Copyright by VU QUANG NGUYEN: 
+#### VU QUANG NGUYEN  - 1523030: [Getlink](https://github.com/vuquangnguyen2018/WebStudio/issues/9)
+
