@@ -12,8 +12,6 @@
 
 #### Hinh anh nam 3 -2018 : [View](https://github.com/vuquangnguyen2018/WebStudio/issues/4)
 #### Hinh anh tu thien Tra Vinh: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/1)
-
-<br/>
 #### HINH ANH SINH VIEN KHOA 2015: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/8)
 
 
