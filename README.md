@@ -92,5 +92,5 @@
 
 
 ## Security Code: Copyright by VU QUANG NGUYEN: 
-#### VU QUANG NGUYEN  - 1523030: [Getlink](https://github.com/vuquangnguyen2018/WebStudio/issues/9)
+#### VU QUANG NGUYEN  - 1523030: [Getlink](https://github.com/vuquangnguyen2018/WebStudio/issues/9) + [Getlink](https://github.com/vuquangnguyen2018/WebStudio/issues/10)
 
