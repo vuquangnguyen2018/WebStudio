@@ -2,7 +2,11 @@
 ### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/)
 ### TRUNG TAM DU LIEU  - HINH ANH
 ## THUC TAP BENH VIEN 26-27.10.2018
-https://github.com/vuquangnguyen2018/WebStudio/issues/11
+<!--ChoRayHospital20181026-->
+![43626611_1977561645625551_5849766403707502592_n](https://user-images.githubusercontent.com/41269309/47566232-3a65d580-d955-11e8-8240-c4163af7967d.jpg)
+
+
+
 
 #### HINH ANH THUC TAP DA LAT - KTHN && VLHN [View](https://github.com/vuquangnguyen2018/WebStudio/issues/2)
 <!--Track 2-->
