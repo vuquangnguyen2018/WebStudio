@@ -1,7 +1,8 @@
 # VU QUANG NGUYEN 2018 
 ### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/)
 ### TRUNG TAM DU LIEU  - HINH ANH
-
+## THUC TAP BENH VIEN 26-27.10.2018
+https://github.com/vuquangnguyen2018/WebStudio/issues/11
 
 #### HINH ANH THUC TAP DA LAT - KTHN && VLHN [View](https://github.com/vuquangnguyen2018/WebStudio/issues/2)
 <!--Track 2-->
