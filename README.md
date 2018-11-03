@@ -96,5 +96,7 @@
 ![893555_492253900838118_707573196_o](https://user-images.githubusercontent.com/41269309/44954107-dd572180-aec7-11e8-9746-1bf3917dcc65.jpg)
 
 
-## Security Code: Copyright by VU QUANG NGUYEN: 
+## Security Code: Copyright by VU QUANG NGUYEN:  
+
+###### Emergency: [Code](https://github.com/vuquangnguyen2018/WebStudio/issues/12)
 
