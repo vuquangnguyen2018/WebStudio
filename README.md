@@ -1,5 +1,5 @@
 # VU QUANG NGUYEN 2018 
-### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/)
+### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/) - [ID Card](https://github.com/vuquangnguyen2018/WebStudio/issues/12)
 ### TRUNG TAM DU LIEU  - HINH ANH
 ## THUC TAP BENH VIEN 26-27.10.2018
 <!--ChoRayHospital20181026-->
