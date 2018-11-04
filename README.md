@@ -19,7 +19,7 @@
 #### Hinh anh nam 3 -2018 : [View](https://github.com/vuquangnguyen2018/WebStudio/issues/4)
 #### Hinh anh tu thien Tra Vinh: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/1)
 #### HINH ANH SINH VIEN KHOA 2015: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/8)
-#### Sinh vien khoa 2014 -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/5) - [Tran Thi Kim Yen](https://github.com/vuquangnguyen2018/WebStudio/issues/14)
+#### Sinh vien khoa 2014 -[TongHop-SinhVien](https://github.com/vuquangnguyen2018/WebStudio/issues/5) - [Tran Thi Kim Yen](https://github.com/vuquangnguyen2018/WebStudio/issues/14)
 
 
 #### 1. Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)
