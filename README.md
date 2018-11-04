@@ -25,7 +25,7 @@
 #### 1. Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)
 
 #### 2. Le Cong Hao ref{VLHN} - {TS} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/15)
-
+#### 3. HocBongUFJ/Oct 23.2018 [View](https://github.com/vuquangnguyen2018/WebStudio/issues/16)
 
 ## 06. PHONG THU
 <!--Phong Thu-->
