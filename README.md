@@ -1,12 +1,5 @@
 # VU QUANG NGUYEN 2018 
 ### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/) - [ID Card](https://github.com/vuquangnguyen2018/WebStudio/issues/12)
-### TRUNG TAM DU LIEU  - HINH ANH
-## THUC TAP BENH VIEN 26-27.10.2018
-<!--ChoRayHospital20181026-->
-![43626611_1977561645625551_5849766403707502592_n](https://user-images.githubusercontent.com/41269309/47566232-3a65d580-d955-11e8-8240-c4163af7967d.jpg)
-
-
-
 
 #### HINH ANH THUC TAP DA LAT - KTHN && VLHN [View](https://github.com/vuquangnguyen2018/WebStudio/issues/2)
 <!--Track 2-->
@@ -22,10 +15,10 @@
 #### Sinh vien khoa 2014 -[TongHop-SinhVien](https://github.com/vuquangnguyen2018/WebStudio/issues/5) - [Tran Thi Kim Yen](https://github.com/vuquangnguyen2018/WebStudio/issues/14)
 
 
-#### 1. Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)
+## 1. Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)
 
-#### 2. Le Cong Hao ref{VLHN} - {TS} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/15)
-#### 3. HocBongUFJ/Oct 23.2018 [View](https://github.com/vuquangnguyen2018/WebStudio/issues/16)
+## 2. Le Cong Hao ref{VLHN} - {TS} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/15)
+## 3. HocBongUFJ/Oct 23.2018 [View](https://github.com/vuquangnguyen2018/WebStudio/issues/16)
 
 ## 06. PHONG THU
 <!--Phong Thu-->
