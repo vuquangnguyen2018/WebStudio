@@ -21,13 +21,12 @@
 #### HINH ANH SINH VIEN KHOA 2015: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/8)
 #### Sinh vien khoa 2014 -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/5) - [Tran Thi Kim Yen](https://github.com/vuquangnguyen2018/WebStudio/issues/14)
 
-<br/>
-***
-<br/>
+
 #### 1. Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)
+
 #### 2. Le Cong Hao ref{VLHN} - {TS} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/15)
 
-<br/>
+
 ## 06. PHONG THU
 <!--Phong Thu-->
 
