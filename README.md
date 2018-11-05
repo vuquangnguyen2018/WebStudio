@@ -15,12 +15,12 @@
 #### Sinh vien khoa 2014 -[TongHop-SinhVien](https://github.com/vuquangnguyen2018/WebStudio/issues/5) - [Tran Thi Kim Yen](https://github.com/vuquangnguyen2018/WebStudio/issues/14)
 
 
-## 1. Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)
+#### 1. Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)
 
-## 2. Le Cong Hao ref{VLHN} - {TS} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/15)
-## 3. HocBongUFJ/Oct 23.2018 [View](https://github.com/vuquangnguyen2018/WebStudio/issues/16)
+#### 2. Le Cong Hao ref{VLHN} - {TS} -[View](https://github.com/vuquangnguyen2018/WebStudio/issues/15)
+#### 3. HocBongUFJ/Oct 23.2018 [View](https://github.com/vuquangnguyen2018/WebStudio/issues/16)
 
-## 06. PHONG THU
+#### 06. PHONG THU
 <!--Phong Thu-->
 
 ![3815_1038602379546404_1854061163192701776_n](https://user-images.githubusercontent.com/41269309/44953734-d0cfca80-aec1-11e8-91a6-6a6a3acd39e6.jpg)
