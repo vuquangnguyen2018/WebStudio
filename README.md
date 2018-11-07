@@ -5,7 +5,7 @@
 <!--Track 2-->
 #### HINH ANH LOP VLYK: [View](https://github.com/vuquangnguyen2018/WebStudio/issues/3)
 #### NHA TUI : [View](https://github.com/vuquangnguyen2018/WebStudio/issues/7)
-
+### Thoi Tho Au: [Track](https://github.com/vuquangnguyen2018/WebStudio/issues/17)
 <!--The end-->
 
 
