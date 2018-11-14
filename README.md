@@ -21,4 +21,4 @@
 |2|  Hinh anh nam 3 -2018 | [View](https://github.com/vuquangnguyen2018/WebStudio/issues/4)|
 |3| Hinh anh tu thien Tra Vinh| [View](https://github.com/vuquangnguyen2018/WebStudio/issues/1)|
 |4| HocBongUFJ/Oct 23.2018 |[View](https://github.com/vuquangnguyen2018/WebStudio/issues/16)|
-|5| Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995} |[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)|
+|5| Nguyen Ngoc Ha My ref.NguyenNgocHanNy - Quang Nam.1995|[View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)|
