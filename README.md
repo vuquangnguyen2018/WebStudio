@@ -5,7 +5,7 @@
 
 |STT |Ki Thuat hat nhan - Vat li hat nhan 2015 |Get|
 |:--:|:--:|:--:|
-|1  |   Hinh anh Bo mon - PTN.LinhTrung                            |   [Bo Mon](https://github.com/vuquangnguyen2018/WebStudio/issues/15)  [P.TN](https://github.com/vuquangnguyen2018/WebStudio/issues/19 )          |
+|1  |   Hinh anh Bo mon - PTN.LinhTrung                            |   [Bo Mon](https://github.com/vuquangnguyen2018/WebStudio/issues/15)   - --- [P.TN](https://github.com/vuquangnguyen2018/WebStudio/issues/19 )          |
 |2  |   HINH ANH LOP VLYK                           |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/3)             |
 |3  |   Hinh Anh SV KTHN - VLHN 2015                |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/8)             |
 |4  |   Sinh vien khoa 2014                         |   [SinhVien.k2014](https://github.com/vuquangnguyen2018/WebStudio/issues/5)   |
