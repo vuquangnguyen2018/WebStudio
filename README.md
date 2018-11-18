@@ -1,6 +1,5 @@
 # VU QUANG NGUYEN 2018 
-### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/) - [ID Card](https://github.com/vuquangnguyen2018/WebStudio/issues/12)
-
+### Link to Server: [Github_VuQuangNguyen2016](https://vuquangnguyen2016.github.io/Webpage/) 
 # Hinh anh Bo mon - Sinh vien
 
 |STT |Ki Thuat hat nhan - Vat li hat nhan 2015 |Get|
@@ -23,3 +22,7 @@
 |3  |   Hinh anh tu thien Tra Vinh                                              |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/1)              |
 |4  |   HocBongUFJ/Oct 23.2018                                                  |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/16)             |
 |5  |   Nguyen Ngoc Ha My ref{Nguyen Ngoc Han Ny} - {Quang Nam - 1995}          |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/13)             |
+
+
+
+#### - [ID Card](https://github.com/vuquangnguyen2018/WebStudio/issues/12)
