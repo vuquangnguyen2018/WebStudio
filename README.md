@@ -9,7 +9,7 @@
 |3  |   Hinh Anh SV KTHN - VLHN 2015                |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/8)             |
 |4  |   Sinh vien khoa 2014                         |   [SinhVien.k2014](https://github.com/vuquangnguyen2018/WebStudio/issues/5)   |
 |5  |   HINH ANH THUC TAP DA LAT - KTHN.VLHN        |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/2)             |
-|6  |   Ki yeu KTHN-VLYk - GiangDien2019        |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/2)             |
+|6  |   Ki yeu KTHN-VLYk - GiangDien2019        |   [View](https://github.com/vuquangnguyen2018/WebStudio/issues/20)             |
 
 
 
