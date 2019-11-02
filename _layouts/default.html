@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+  <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
+  <script src="{{ site.url }}/js/plugins/jquery.justifiedGallery.min.js"></script>
+
+</html>

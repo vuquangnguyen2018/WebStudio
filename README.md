@@ -1,186 +1,119 @@
-# thumbsup
+# Jekyll-Photo-Gallery
+With Jekyll-Photo-Gallery you can easily generate a photo gallery for your Jekyll site or blog.
+Jekyll-Photo-Gallery generates a static index and a page for every photo based on the layouts photoIndex.html and photo.html.
+These layouts can be easily adapted to fit the style of your site. The photo layout is also automatically enriched with metadata 
+such as photo location (Google Maps), ISO, F and speed values.  
+The whole plugin is setup so that new photos can be added with minimal effort. Thumbnails are automatically generated with ImageMagick on macOS and Linux. (It may work on windows as well, 
+but you need to find out how to install ImageMagick yourself.)
 
-<!-- Project info -->
-[![NPM](http://img.shields.io/npm/v/thumbsup.svg?style=flat)](https://npmjs.org/package/thumbsup)
-[![License](http://img.shields.io/npm/l/thumbsup.svg?style=flat)](https://github.com/thumbsup/thumbsup)
-[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
+# Features
++ Dynamically loaded photo stream
++ Justified gallery layout
++ One URL per picture allows for easy sharing
++ Automatic thumbnail generation (on macOS, Linux)
++ One subpage per picture, ideal for SEO
++ Automatically embedded Schema.org meta information
++ Responsive photo view
++ Easily adaptable layouts
++ Google Maps Geolocation
++ EXIF tag supports
++ Support for albums/trips (alpha)
++ Embeddable galleries for posts (alpha)
 
-<!-- Build status and code analysis -->
-[![Travis CI](https://travis-ci.org/thumbsup/thumbsup.svg?branch=master)](https://travis-ci.org/thumbsup/thumbsup)
-[![Docker Hub](https://img.shields.io/docker/build/thumbsupgallery/thumbsup.svg)](https://hub.docker.com/r/thumbsupgallery/thumbsup)
-[![Dependencies](http://img.shields.io/david/thumbsup/thumbsup.svg?style=flat)](https://david-dm.org/thumbsup/thumbsup)
-[![Dev dependencies](https://david-dm.org/thumbsup/thumbsup/dev-status.svg?style=flat)](https://david-dm.org/thumbsup/thumbsup?type=dev)
+[![Example](https://raw.githubusercontent.com/aerobless/jekyll-photo-gallery/master/example.jpg)](http://w1nter.com/jekyll-photo-gallery/photography/)
 
-<!-- Social sharing -->
-[![Twitter](https://img.shields.io/badge/share-Twitter-1CA8F5.svg)](https://twitter.com/intent/tweet?text=Need%20static%20photo%20and%20video%20galleries?%20Check%20out%20Thumbsup%20on%20Github&url=https://github.com/thumbsup/thumbsup&hashtags=selfhosted,static,gallery)
-[![LinkedIn](https://img.shields.io/badge/share-LinkedIn-0077BC.svg)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/thumbsup/thumbsup&title=Static%20gallery%20generator&summary=Thumbsup%20is%20a%20command-line%20friendly%20static%20gallery%20generator%20for%20all%20your%20photos%20and%20videos&source=Github)
-[![Facebook](https://img.shields.io/badge/share-Facebook-3F4C9D.svg)](https://www.facebook.com/sharer.php?u=https://github.com/thumbsup/thumbsup)
+# Demos
 
----
+1. [Demo site running the "sample-installation"](http://w1nter.com/jekyll-photo-gallery/photography/)
+2. if you have a site running this (or a modified version of it) send me a comment and I'll add you :)
 
-<p align="center">https://thumbsup.github.io</p>
-<img align="center" src="docs/banner.jpg" alt="Banner" />
+# Installation Guide
 
----
+1. Download this repository and copy the contents of the folder "plugin" to your jekyll installation.
+2. Install the following gems or add them to your gemfile if you're using bundler.
 
-Turn any folder with photos &amp; videos into a web gallery.
+    > gem 'exifr'
+ 
 
-- thumbnails & multiple resolutions for fast previews
-- mobile friendly website with customisable themes
-- only rebuilds changed files: it's fast!
-- uses relative paths so you can deploy the pages anywhere
-- works great with Amazon S3 for static hosting
+        
+        
+        
+# Enable optional features
 
-## Quick start
+### 1. Enable automatic thumbnail generation
 
-Simply point `thumbsup` to a folder with photos &amp; videos. All nested folders become separate albums.
+1. Install imagemagick for your system (e.g. `apt-get install imagemagick` for Linux or `brew install imagemagick` on macOS)
+2. Install mini_magick `gem install mini_magick`
+3. Install jekyll-minimagick `gem install jekyll-minimagick`.
+4. Remove the '#' in the file "_plugins/jekyll-generate-thumbnails.rb" to enable thumbnail generation
 
-```bash
-npm install -g thumbsup
-thumbsup --input ./photos --output ./gallery
-```
+### 2. Enable Google Maps Geolocation
 
-![Screen recording](docs/demo.gif)
+1. Obtain a Google Maps "Static Maps API key" from this site: https://developers.google.com/maps/documentation/static-maps/
+  1. Create a new project for your site (or chose an existing one).
+  2. Make sure that "Google Static Maps API" is selected in the API drawer, then select "Web browser (Javascript)" from the drawer below.
+  3. Enter all the URL(s) of your website from which you'll be accessing google maps. E.g. `*yoursite.com*` or `*localhost*` or `*.yoursite.com/*` .. etc.
+2. Open layouts/photo.html and replace the existing key (around line 113) **&key=AIzaSyCMXdSigC-sBH...** with your new key.
 
-There are many command line arguments to customise the output.
-See the website for the full documentation: https://thumbsup.github.io.
-
-## Sample gallery
-
-See a sample gallery online at https://thumbsup.github.io/demos/themes/mosaic/
-
-![sample gallery](docs/screenshot.png)
-
-## Requirements
-
-Thumbsup requires the following dependencies:
-- [Node.js](http://nodejs.org/): `brew install node`
-- [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/): `brew install exiftool`
-- [GraphicsMagick](http://www.graphicsmagick.org/): `brew install graphicsmagick`
-
-And optionally:
-- [FFmpeg](http://www.ffmpeg.org/) to process videos: `brew install ffmpeg`
-- [Gifsicle](http://www.lcdf.org/gifsicle/) to process animated GIFs: `brew install gifsicle`
-- [dcraw](https://www.cybercom.net/~dcoffin/dcraw/) to process RAW photos: `brew install dcraw`
-- [ImageMagick](https://imagemagick.org/) for HEIC support (needs to be compiled with `--with-heic`)
-
-You can run thumbsup as a Docker container ([thumbsupgallery/thumbsup](https://hub.docker.com/r/thumbsupgallery/thumbsup/)) which pre-packages all the dependencies above. Read the [thumbsup on Docker](https://thumbsup.github.io/docs/2-installation/docker/) documentation for more detail.
-
-```bash
-docker run -v `pwd`:/work thumbsupgallery/thumbsup [...]
-```
-
-## Command line arguments
-
-This reflects the CLI for the latest code on `master`.
-For the latest published version please refer to the [docs on the website](https://thumbsup.github.io).
-
-<!-- START cli -->
-```
+### 3. Embed an album/gallery in a post
+1. Add album meta-data to the photos you want to include in your post.
+  1. Go to `_data/photos.yaml`
+  2. Add the property `album: uniqueAlbumName`
+2. Open your-post.md and add `{% includeGallery uniqueAlbumName %}`
 
 
- Usages:
-   thumbsup [required] [options]
-   thumbsup --config config.json
 
 
-Required:
-  --input   Path to the folder with all photos/videos  [string] [required]
-  --output  Output path for the static website  [string] [required]
+# Known bugs & limitations
 
-Input options:
-  --include-photos      Include photos in the gallery  [boolean] [default: true]
-  --include-videos      Include videos in the gallery  [boolean] [default: true]
-  --include-raw-photos  Include raw photos in the gallery  [boolean] [default: false]
-  --include             Glob pattern of files to include  [array]
-  --exclude             Glob pattern of files to exclude  [array]
+**1. Fixed order in detail view:**  
+Atm every photo detail page contains its "previous picture" & "next picture" information. So even though you can change
+the order of pictures in a gallery via JS, when you load a detail view and click next the original next picture will be displayed.
+This also means that if you're in a album and you click on next in the detail view of the last picture it will go to the next picture
+regardless if that picture is in the album.
 
-Output options:
-  --thumb-size          Pixel size of the square thumbnails  [number] [default: 120]
-  --large-size          Pixel height of the fullscreen photos  [number] [default: 1000]
-  --photo-quality       Quality of the resized/converted photos  [number] [default: 90]
-  --video-quality       Quality of the converted video (percent)  [number] [default: 75]
-  --video-bitrate       Bitrate of the converted videos (e.g. 120k)  [string] [default: null]
-  --video-format        Video output format  [choices: "mp4", "webm"] [default: "mp4"]
-  --photo-preview       How lightbox photos are generated  [choices: "resize", "copy", "symlink", "link"] [default: "resize"]
-  --video-preview       How lightbox videos are generated  [choices: "resize", "copy", "symlink", "link"] [default: "resize"]
-  --photo-download      How downloadable photos are generated  [choices: "resize", "copy", "symlink", "link"] [default: "resize"]
-  --video-download      How downloadable videos are generated  [choices: "resize", "copy", "symlink", "link"] [default: "resize"]
-  --link-prefix         Path or URL prefix for "linked" photos and videos  [string]
-  --cleanup             Remove any output file that's no longer needed  [boolean] [default: false]
-  --concurrency         Number of parallel parsing/processing operations  [number] [default: 4]
-  --output-structure    File and folder structure for output media  [choices: "folders", "suffix"] [default: "folders"]
-  --gm-args             Custom image processing arguments for GraphicsMagick  [array]
-  --watermark           Path to a transparent PNG to be overlaid on all images  [string]
-  --watermark-position  Position of the watermark  [choices: "Repeat", "Center", "NorthWest", "North", "NorthEast", "West", "East", "SouthWest", "South", "SouthEast"]
+**2. Only one album per photo:**  
+Right now a photo can only be in one album at a time.
 
-Album options:
-  --albums-from            How files are grouped into albums  [array] [default: ["%path"]]
-  --sort-albums-by         How to sort albums  [choices: "title", "start-date", "end-date"] [default: "start-date"]
-  --sort-albums-direction  Album sorting direction  [choices: "asc", "desc"] [default: "asc"]
-  --sort-media-by          How to sort photos and videos  [choices: "filename", "date"] [default: "date"]
-  --sort-media-direction   Media sorting direction  [choices: "asc", "desc"] [default: "asc"]
-  --home-album-name        Name of the top-level album  [string] [default: "Home"]
-  --album-zip-files        Create a ZIP file per album  [boolean] [default: false]
-
-Website options:
-  --index                 Filename of the home page  [string] [default: "index.html"]
-  --albums-output-folder  Output subfolder for HTML albums (default: website root)  [string] [default: "."]
-  --theme                 Name of a built-in gallery theme  [choices: "classic", "cards", "mosaic", "flow"] [default: "classic"]
-  --theme-path            Path to a custom theme  [string]
-  --theme-style           Path to a custom LESS/CSS file for additional styles  [string]
-  --theme-settings        Path to a JSON file with theme settings  [string]
-  --title                 Website title  [string] [default: "Photo album"]
-  --footer                Text or HTML footer  [string] [default: null]
-  --google-analytics      Code for Google Analytics tracking  [string]
-  --embed-exif            Embed the exif metadata for each image into the gallery page  [boolean] [default: false]
-  --locale                Locale for regional settings like dates  [string] [default: "en"]
-
-Misc options:
-  --config       JSON config file (one key per argument)  [string]
-  --log          Print a detailed text log  [choices: "default", "info", "debug", "trace"] [default: "default"]
-  --usage-stats  Enable anonymous usage statistics  [boolean] [default: true]
-  --dry-run      Update the index, but don't create the media files / website  [boolean] [default: false]
-
-Deprecated:
-  --original-photos       Copy and allow download of full-size photos  [boolean]
-  --original-videos       Copy and allow download of full-size videos  [boolean]
-  --albums-date-format    How albums are named in <date> mode [moment.js pattern]
-  --css                   Path to a custom provided CSS/LESS file for styling  [string]
-  --download-photos       Target of the photo download links  [choices: "large", "copy", "symlink", "link"]
-  --download-videos       Target of the video download links  [choices: "large", "copy", "symlink", "link"]
-  --download-link-prefix  Path or URL prefix for linked downloads  [string]
-
-Options:
-  --version  Show version number  [boolean]
-  --help     Show help  [boolean]
+**3. Why are you including the CSS files in head.html as well as individual templates?**  
+To make the setup easier for people who just copy the specific templates. Including them once is enough.
 
 
- The optional JSON config should contain a single object with one key
- per argument, not including the leading "--". For example:
- { "sort-albums-by": "start-date" }
-```
 
-<!-- END cli -->
 
-## Contributing
+# Troubleshooting
+If the gallery doesn't appear in your page but the files have been generated correctly then it's likely that there is a javascript error.
+In order to find the problem it's best to open the javascript console on Chrome (or your browser of choice) and to reload the page. If there's an error
+it will now appear in the console output.
 
-We welcome all [issues](https://github.com/thumbsup/thumbsup/issues)
-and [pull requests](https://github.com/thumbsup/thumbsup/pulls)!
+**1. Uncaught ReferenceError: $ is not defined:**  
+This error happens when jQuery wasn't loaded before executing the gallery script. Make sure that your templates has the jQuery includes.
 
-If you are facing any issues or getting crashes, please try the following options to help troubleshoot:
+**2. The gallery isn't justified, the thumbnails are in a vertical line:**  
+Be sure to include the CSS files "justifiedGallery.min.css" and "jekyll-photo-gallery.css" in the template where you're using the gallery. If you're embedding the gallery
+in a post the template of the post also has to include these CSS files.
 
-```bash
-thumbsup [options] --log debug
-# [16:04:56] media/thumbs/photo-1446822622709-e1c7ad6e82d52.jpg [started]
-# [16:04:57] media/thumbs/photo-1446822622709-e1c7ad6e82d52.jpg [completed]
 
-thumbsup [options] --log trace
-# [16:04:56] media/thumbs/photo-1446822622709-e1c7ad6e82d52.jpg [started]
-# gm "identify" "-ping" "-format" "%[EXIF:Orientation]" [...]
-# gm "convert" "-quality" "90" "-resize" "x400>" "+profile" [...]
-# [16:04:57] media/thumbs/photo-1446822622709-e1c7ad6e82d52.jpg [completed]
-```
 
-If you want to contribute some code, please check out the [contributing guidelines](.github/CONTRIBUTING.md)
-for an overview of the design and a run-through of the different automated/manual tests.
+
+
+# License (MIT)
+ > Copyright (c) 2016 Theodor Winter
+ 
+ > Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ > The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ 
+ > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
