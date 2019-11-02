@@ -1,1 +1,8 @@
-node_modules/
+node_modules
+coverage
+test-snapshot/output-actual
+test-snapshot/output-expected/public
+test-snapshot/output-expected/metadata.json
+.DS_Store
+thumbsup.db
+tmp*
